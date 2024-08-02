@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz@1,6..96&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-image: url(images/img1.jpg);
+    background-size: cover; 
+    height:auto; 
+    width: 100%; 
+    
+}
+.section1 h5{
+    margin: 0;
+    padding: 10px;
+    font-family:'Cormorant Garamond';
+    font-size: 20pt;
+    font-weight: 18px;
+    color: white ;
+    text-align: center;
+}
+.section1 h1 {
+    font-family: "Amita", serif ;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 50pt;
+    padding: 70px 240px 100px 140px;
+}
+
+.learnMore{
+    background-color: rgba(0, 0, 0, 0.493);
+    border-color: white;
+    color: white;
+    width: 270px;
+    height: 60px;
+    font-size: 20px;
+    display: block;
+    margin: auto ;
+
+}
+
+button:hover{
+border-color: black;
+}
+
+.section2{
+    height:auto;
+    width: 100%; 
+    background-color: #fff7ee;
+    
+
+}
+
+.cotainer{
+    height: auto;
+    position: relative;
+
+}
+.section2 img{
+    height: auto;
+    width: 80%; 
+    display: block;
+    margin: auto;
+    border-style: solid ;
+    padding: 25px ;
+    object-fit: cover;
+    box-shadow: 50px;
+
+}
+.image-wrapper{
+    padding: 40px;
+    background-color: #fff7ee;
+    box-sizing: border-box;
+}
+
+.text-box{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50% ,-50%); 
+    color: white;
+    font-size: 20pt;
+    width:60%;
+    text-align: center; 
+}
+    
+.section3 {
+
+    background-image: url(images/img3.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width:100%;
+    height:95vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;          
+    color: white;           
+}
+
+.section3 h2 {
+    font-size:27pt;             
+    margin: 0;                 
+    padding: 0 70px;               
+}
+
+.section4 {
+    background-color: #fff7ee;
+    width:100%;
+    height:auto;  
+    text-align: center;
+    padding-bottom: 90px;
+}
+.section4 h1{
+    
+    font-family: "Amita", serif ;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    padding: 90px 0 130px 0;
+}
+.collection {
+    display: flex;
+    justify-content: center;
+    gap: 35px;  
+    
+    
+
+}
+.collection img{
+    width: 300px;
+    height: 270px;
+    border: black solid 1px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.collection p{
+    font-family: "Amita", serif ;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13pt;
+}
+
+.section5{
+    background-color: #303f3c;
+    width:100%;
+    height:auto;  
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.item{
+    position: relative;
+
+}
+.section5 img{
+    width: 80vh;
+    height:80vh ; 
+    border: white solid 15px;
+    position: relative;
+    object-fit: cover;
+    
+}
+.head-overlay {
+    color: white;
+    font-size: 14pt;
+    width: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+.text-overlay{
+    padding-top: 300px;
+    font-size: 14pt;
+}
+
+.section6{
+    background-color: #fff7ee;
+    width:auto;
+    height:auto;  
+
+}
+
+.section6 h1{
+    height: auto;
+    text-align: center;
+    font-family: "Amita", serif ;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40pt;
+    padding: 90px 0 200px 0;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+
+.container1 svg{
+    width: 90px;
+    height: auto;
+    padding-left: 20px;
+    
+
+}
+
+.container1 p{
+    font-size: 15pt;
+    width: 150px;
+    height: 130px;
+    padding-top: 45px ;
+    border-bottom: black solid 1px;
+    margin-bottom: 100px;
+
+}
+
+footer{
+    background-color: #303f3c;
+    width: 100%;
+    height: 99vh;
+
+}
+
+.footer img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.credit{
+    color: white;
+    font-size: 15pt;
+    padding: 50px 0 30px 150px;
+    width: 350px;
+}
+
+.contact{
+    color: white;
+    font-size: 29pt;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.contact p{
+    font-size: 10pt;
+}
