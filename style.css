@@ -32,15 +32,19 @@
     padding: 70px 240px 100px 140px;
 }
 
-.learnMore{
+.learnMore {
     background-color: rgba(0, 0, 0, 0.493);
     border-color: white;
     color: white;
-    width: 270px;
-    height: 60px;
+    width: 250px;
+    height: 40px;
     font-size: 20px;
     display: block;
     margin: auto ;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2px;
+    font-family: "Amita", serif ;
 
 }
 
@@ -257,3 +261,41 @@ footer{
 .contact p{
     font-size: 10pt;
 }
+
+/*---------------------LEARN MORE CSS STYLES----------------------------*/
+.container-fluid{
+    background-color: #303f3c;
+}
+.navbar-brand {
+    color: white;
+    font-family:'Cormorant Garamond';
+    font-size: 20pt;
+    font-weight: 18px;
+}
+
+.carousel-item img{
+    width: fit-content;
+    height: 700px;
+    object-fit: cover;
+}
+
+.row{
+padding-top: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:white;
+
+
+}
+
+.col-md-7 .lh-1{
+    font-family: "Amita", serif ;
+    font-weight: 600;
+    font-style: normal;
+    width: 630px;
+    padding-left: 30px;
+
+    
+}
+
